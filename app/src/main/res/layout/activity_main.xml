@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:orientation="vertical" >
+    android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/fichedevisite"
+        android:layout_width="41dp"
+        android:layout_height="20dp"
+        android:text="Elève"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Élève recherché" />
+        android:layout_width="102dp"
+        android:layout_height="18dp"
+        android:text="Nom de l'élève : "
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="102dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="RECHERCHER" />
-</LinearLayout>
+        android:id="@+id/Boutonrechercher"
+        android:layout_width="146dp"
+        android:layout_height="50dp"
+        android:text="rechercher"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="382dp" />
 
-
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="220dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="125dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
