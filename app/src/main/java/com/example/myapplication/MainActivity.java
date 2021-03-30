@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etudiantsView = (TextView) findViewById(R.id.textViewNom)
+        etudiantsView = (TextView) findViewById(R.id.textViewNom);
 
 
 
