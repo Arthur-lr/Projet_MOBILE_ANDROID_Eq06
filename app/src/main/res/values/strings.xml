@@ -14,4 +14,5 @@
     <string name="BilanTravaux"></string>
     <string name="RessourcesOutils"></string>
     <string name="Commentaires"></string>
+    <string name="textViewNom">Nom</string>
 </resources>

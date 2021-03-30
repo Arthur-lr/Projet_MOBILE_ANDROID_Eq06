@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.database.Cursor;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Cursor c = eleveBdd.getData();
         Toast.makeText(getApplicationContext(), "il y a"  + String.valueOf(c.getCount())+ " clients", Toast.LENGTH_LONG).show();
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
