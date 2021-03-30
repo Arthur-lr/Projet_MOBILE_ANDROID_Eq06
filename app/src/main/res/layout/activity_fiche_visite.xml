@@ -7,11 +7,15 @@
     tools:context=".FicheVisite">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="260dp"
+        android:layout_marginBottom="420dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -33,7 +37,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="310dp"
+        android:layout_marginBottom="380dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -55,7 +62,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="350dp"
+        android:layout_marginBottom="330dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -73,9 +83,17 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="230dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView17"
@@ -87,7 +105,7 @@
             android:id="@+id/SAI_Commentaires"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/Commentaires" />
     </LinearLayout>
 
     <LinearLayout
@@ -95,7 +113,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="190dp"
+        android:layout_marginBottom="520dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -118,7 +139,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="210dp"
+        android:layout_marginBottom="500dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -141,7 +165,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="230dp"
+        android:layout_marginBottom="480dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -164,7 +191,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="170dp"
+        android:layout_marginBottom="540dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -188,7 +218,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="240dp"
         android:layout_marginTop="130dp"
+        android:layout_marginBottom="580dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -210,7 +243,11 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="110dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="600dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -232,7 +269,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="240dp"
         android:layout_marginTop="110dp"
+        android:layout_marginBottom="600dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -255,7 +295,11 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="130dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="580dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -274,11 +318,16 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="180dp"
         android:layout_marginTop="50dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="630dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -300,7 +349,11 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="70dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="640dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -322,6 +375,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="660dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -343,40 +400,74 @@
         android:id="@+id/Fichedevisite"
         android:layout_width="130dp"
         android:layout_height="21dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="13dp"
         android:text="Fiche de visite"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <Button
-        android:id="@+id/BoutonRetour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="retour"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="628dp" />
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="200dp"
         android:text="participation du maitre de stage à l'épreuve orale"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="502dp" />
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.005" />
 
-    <CheckBox
-        android:id="@+id/ParticipationOui"
-        android:layout_width="56dp"
-        android:layout_height="23dp"
-        android:text="Oui"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="528dp" />
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="180dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <CheckBox
-        android:id="@+id/ParticipationNon"
-        android:layout_width="64dp"
-        android:layout_height="24dp"
-        android:text="Non"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="531dp" />
+        <CheckBox
+            android:id="@+id/ParticipationOui"
+            android:layout_width="56dp"
+            android:layout_height="23dp"
+            android:text="Oui" />
+
+        <CheckBox
+            android:id="@+id/ParticipationNon"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:text="Non" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRetour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="100dp"
+        android:text="retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEnregistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="100dp"
+        android:text="Enregistrer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
