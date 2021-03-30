@@ -340,7 +340,7 @@
 
         <TextView
             android:id="@+id/SAI_Classe"
-            android:layout_width="62dp"
+            android:layout_width="118dp"
             android:layout_height="wrap_content"
             android:text="@string/Classe" />
     </LinearLayout>
@@ -365,7 +365,7 @@
 
         <TextView
             android:id="@+id/SAI_Année"
-            android:layout_width="53dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:text="@string/Année" />
 
