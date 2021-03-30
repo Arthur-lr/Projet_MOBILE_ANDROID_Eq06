@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etudiantsView = (TextView) findViewById(R.id.etudiantsView);
+        etudiantsView = (TextView) findViewById(R.id.textView);
         databaseManager = new DatabaseManager( this);
 
         databaseManager.insertEtudiants("Landry");
