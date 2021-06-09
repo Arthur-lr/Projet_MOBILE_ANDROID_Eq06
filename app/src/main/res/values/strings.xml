@@ -1,17 +1,16 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="Année"></string>
-    <string name="Classe"></string>
-    <string name="TuteurEcole"></string>
-    <string name="DateVisite"></string>
-    <string name="MailTuteur"></string>
-    <string name="Divers"></string>
-    <string name="Entreprise"></string>
-    <string name="TuteurEntreprise"></string>
-    <string name="TéléphoneEntreprise"></string>
-    <string name="MailEntreprise"></string>
-    <string name="ConditionStage"></string>
-    <string name="BilanTravaux"></string>
-    <string name="RessourcesOutils"></string>
-    <string name="Commentaires"></string>
+    <string name="app_name">10juin</string>
+    <string name="eleves">Eleves</string>
+    <string name="title">Titre</string>
+    <string name="btn_annuler">annuler</string>
+    <string name="btn_valider">valider</string>
+    <string name="prof">prof</string>
+    <string name="tuteur">tuteur</string>
+    <string name="btn_retour">retour</string>
+    <string name="anne_stg">anne</string>
+    <string name="prenom_stg">prenom</string>
+    <string name="nom_stg">nom</string>
+    <string name="titre_page_info_stg">info</string>
+    <string name="classe">classe</string>
+    <string name="spe">spe</string>
 </resources>
